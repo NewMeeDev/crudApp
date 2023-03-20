@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=Q0DY0gc5CmI
+
+
+
+CRUD Application
+----------------
+
+User
+	name, address, email, mobile, dob, id(ai)
+
+Create the User
+Delete the User
+Update the User
+Read the User-List
+
+UserController
+	user/create				--> POST
+	user/list				--> GET
+	user/delete 			--> POST
+	user/update/{user_id}	--> POST
+	
+UserService
+	
+UserModel
+	Long id;
+	String name, address, email, mobile;
+	LocalDate dob;
+	
+	
+GIT
+---
+https://github.com/NewMeeDev/crudApp.git
+
